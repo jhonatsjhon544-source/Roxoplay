@@ -142,3 +142,24 @@ card.style.transform="translateY(0px)";
 });
 
 });
+const botaoLuz = document.getElementById("lightButton");
+
+if (botaoLuz) {
+
+    botaoLuz.addEventListener("click", function(){
+
+        document.body.classList.toggle("claro");
+
+        if(document.body.classList.contains("claro")){
+
+            botaoLuz.innerHTML = "Iluminação do site: OFF";
+
+        } else {
+
+            botaoLuz.innerHTML = "Iluminação do site: ON";
+
+        }
+
+    });
+
+}
