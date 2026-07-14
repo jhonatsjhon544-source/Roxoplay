@@ -289,3 +289,80 @@ body.lightOff #lightButton{
 box-shadow:0 0 30px #d77cff;
 
 }
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:radial-gradient(circle,#7b2cff,#16002b);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+}
+
+.logo{
+    font-size:25px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+button{
+    cursor:pointer;
+}
+
+#lightButton,
+.glass{
+    padding:12px 20px;
+    border:none;
+    border-radius:20px;
+    background:rgba(255,255,255,0.2);
+    color:white;
+    backdrop-filter:blur(10px);
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    padding:30px;
+    border-radius:25px;
+    backdrop-filter:blur(15px);
+}
+
+input{
+    width:90%;
+    padding:15px;
+    border-radius:15px;
+    border:none;
+    margin:5px;
+}
+
+.claro{
+    background:white;
+    color:#222;
+}
+
+.claro header{
+    background:#ddd;
+}
+
+.claro nav a{
+    color:#222;
+}
